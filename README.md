@@ -17,6 +17,8 @@ Yiming Li, Changhong Fu, Fangqiang Ding,  Ziyuan Huang and Geng Lu
 
 AutoTrack:  Towards High-Performance Visual Tracking for UAV with Automatic Spatio-Temporal Regularization.
 
+Link: https://arxiv.org/abs/2003.12949. 
+
 In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition  (CVPR), 2020
 
 Please cite the aforementioned publication when you compare AutoTrack in your work. Bibtex entry:
