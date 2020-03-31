@@ -4,6 +4,8 @@ Matlab implementation of our automatic spatial-temporal regularization tracker (
 
 The code for UAV localization is coming soon.
 
+The paper can be found here: https://arxiv.org/abs/2003.12949. 
+
 # Abstract
 
 Most existing trackers based on discriminative correlation filters (DCF) try to introduce predefined regularization term to improve the learning of target objects, e.g., by suppressing background learning or by restricting change rate of correlation filters. However, predefined parameters introduce much effort in tuning them and they still fail to adapt to new situations that the designer didn’t think of. In this work, a novel approach is proposed to online automatically and adaptively learn spatio-temporal regularization term. Spatially local response map variation is introduced as spatial regularization to make DCF focus on the learning of trust-worthy parts of the object, and global response map variation determines the updating rate of the filter. Extensive experiments on four UAV benchmarks, i.e., DTB70, UAVDT, UAV123@10fps and VisDrone-test-dev, have proven that our tracker performs favorably against the state-of-theart CPU- and GPU-based trackers, with average speed of 59.2 frames per second (FPS) running on a single CPU.
@@ -16,8 +18,6 @@ AutoTrack is proposed in our paper accepted by CVPR 2020. Detailed explanation o
 Yiming Li, Changhong Fu, Fangqiang Ding,  Ziyuan Huang and Geng Lu
 
 AutoTrack:  Towards High-Performance Visual Tracking for UAV with Automatic Spatio-Temporal Regularization.
-
-Link: https://arxiv.org/abs/2003.12949. 
 
 In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition  (CVPR), 2020
 
