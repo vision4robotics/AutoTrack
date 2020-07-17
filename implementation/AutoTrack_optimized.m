@@ -265,7 +265,7 @@ iter = 1;
             %   subproblem mu
            if frame>2&&iter<admm_iterations
                 for i=1:size(g_f,3)
-                    z=power(norm(g_f(i)-g_pre(i),2),2)/(2*epsilon);
+                    z=power(norm(g_f(:,:,i)-g_pre(:,:,i),2),2)/(2*epsilon);
                     mu=ref_mu-z;
                 end
            end
